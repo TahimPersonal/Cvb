@@ -4,7 +4,7 @@ FROM python:3.10
 # Set working directory
 WORKDIR /app
 
-# Copy all files
+# Copy all project files
 COPY . .
 
 # Install dependencies

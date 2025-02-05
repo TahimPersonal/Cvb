@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from aiogram.types import ParseMode
+from aiogram.enums import ParseMode
 from config import BOT_TOKEN, CHANNEL_ID, CHECK_INTERVAL
 from database import is_post_processed, mark_post_processed
 from rss_scraper import get_new_post_links

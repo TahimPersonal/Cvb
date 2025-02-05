@@ -1,0 +1,6 @@
+aiogram
+feedparser
+beautifulsoup4
+requests
+tinydb
+python-dotenv
